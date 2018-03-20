@@ -1,5 +1,6 @@
-var undefined = function () {
-  return null
-}
+{
+  const undefined = () => null
 
-module.exports = undefined
+  global.undefined = undefined
+  module.exports = undefined
+}
